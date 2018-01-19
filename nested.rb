@@ -128,6 +128,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-  programmer_hash[:dennis_ritchie][:languages]=.push("assembly")
+  programmer_hash[:dennis_ritchie][:languages]=dennis_programs_known
+  dennis_programs_known<<"Assembly"
   programmer_hash
 end
