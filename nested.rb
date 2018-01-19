@@ -129,6 +129,6 @@ def adding_to_dennis
         }
      }
   programmer_hash[:dennis_ritchie][:languages]=dennis_programs_known
-  dennis_programs_known<<"Assembly"
+  dennis_programs_known<< "Assembly"
   programmer_hash
 end
